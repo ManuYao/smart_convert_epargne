@@ -5,7 +5,7 @@ import {
   MenuItem, 
   FormControl, 
   InputLabel, 
-  Box, 
+  Box,
   Typography, 
   Container, 
   Paper, 
@@ -196,7 +196,7 @@ const InvestmentCalculator = () => {
           {/* En-tête */}
           <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 4 }}>
             <Typography variant="h4" sx={{ fontWeight: 600 }}>
-            YSimulateur d'pargne
+            Simulateur Épargne
             </Typography>
             <FormControlLabel
               control={
