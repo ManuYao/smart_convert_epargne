@@ -270,15 +270,22 @@ const InvestmentCalculator = () => {
             }}>
               Simulateur d'Investissement
             </Typography>
-            <FormControlLabel
-              control={
-                <Switch
-                  checked={isDarkMode}
-                  onChange={(e) => setIsDarkMode(e.target.checked)}
-                />
-              }
-              label={isDarkMode ? "Mode clair" : "Mode sombre"}
-            />
+            <Box 
+              component="span" 
+              onClick={() => setIsDarkMode(!isDarkMode)}
+              sx={{
+                fontSize: '1.5rem',
+                cursor: 'pointer',
+                transition: 'transform 0.3s ease',
+                display: 'inline-block',
+                '&:hover': {
+                  transform: 'scale(1.1)'
+                }
+              }}
+              title={isDarkMode ? "Passer en mode clair" : "Passer en mode sombre"}
+            >
+              {isDarkMode ? "☀️" : "🌙"}
+            </Box>
           </Box>
 
           <Grid container spacing={3}>
