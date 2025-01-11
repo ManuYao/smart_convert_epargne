@@ -11,6 +11,7 @@
     "@vercel/speed-insights": "^1.1.0",
     "antd": "^5.23.0",
     "card": "^2.5.4",
+    "claude-files": "^0.0.1",
     "cra-template": "1.2.0",
     "framer-motion": "^11.16.0",
     "lucide-react": "^0.469.0",
